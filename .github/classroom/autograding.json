@@ -1,0 +1,37 @@
+{
+    "tests": [
+      {
+        "name": "Calcular probabilidad total",
+        "run": "python3 -m unittest test_tarea.TestTarea.test_calcular_probabilidad_total",
+        "timeout": 10,
+        "points": 20
+      },
+      {
+        "name": "Calcular probabilidad condicional",
+        "run": "python3 -m unittest test_tarea.TestTarea.test_calcular_probabilidad_condicional",
+        "timeout": 10,
+        "points": 20
+      },
+      {
+        "name": "Calcular medidas de tendencia central",
+        "run": "python3 -m unittest test_tarea.TestTarea.test_medidas_tendencia_central",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 20
+      },
+      {
+        "name": "Calcular medidas de dispersión",
+        "run": "python3 -m unittest test_tarea.TestTarea.test_medidas_dispersion",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 20
+      },
+      {
+        "name": "Calcular distribución por categoría",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "python3 -m unittest test_tarea.TestTarea.test_distribucion_por_categoria",
+        "timeout": 10,
+        "points": 20
+      }
+    ]
+  }
